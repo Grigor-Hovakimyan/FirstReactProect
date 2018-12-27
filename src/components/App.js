@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
-import CarouselPage from './CarouselPage';
-import Header from './Header';
-import Layer from './Layer';
-
+import Slide from './Slide';
+import LayerOne from './LayerOne';
+import NavbarPage from './NavbarPage';
 import Footer from './Footer';
-import Path from './Path';
+import MainPage from './MainPage';
+import NavbarText from './NavbarText';
+
+
+
 
 export default class App extends Component {
 
@@ -15,14 +18,13 @@ export default class App extends Component {
     render() {
         return (
             <div className='container'>
-                <Header/>
-                <CarouselPage/>
-                <Layer/>
-                <Path/>
-                <Layer/>
+                <NavbarPage/>
+                <Slide/>
+                <NavbarText/>
+                <LayerOne/>
+                <MainPage/>
+                <LayerOne/>
                 <Footer/>
-
-
             </div>
         );
     }

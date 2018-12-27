@@ -8,17 +8,19 @@ class Footer extends Component {
     render() {
         return (
             <div className='footer'>
-                <div className='inputs'>
+                <div className='footerInput'>
                     <h1>Newsletter</h1>
-                    <p>Sign up</p>
+                    <h4>Sign up and know more</h4>
                     <form name='sub'>
                         <input type='email' name='sub'/>
-                        <input  name='sub' type='submit' value='Sign up'/>
+                        <input className='submit' name='sub' type='submit' value='Sign up'/>
                     </form>
                 </div>
 
                 <div className='footerText'>
-                    <p>This is my new footer text =D</p>
+                    <p>Everything is linked and ready to use. Just open the file index.html and start to create some
+                        amazing thing</p>
+                    <p>Together we can face any challenges as deep as the ocean and as high as the sky</p>
                 </div>
             </div>
         );
