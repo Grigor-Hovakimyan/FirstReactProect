@@ -1,8 +1,8 @@
 import React from 'react';
 import api from './api';
 import PropTypes from 'prop-types';
-import LayerThree from './LayerThree';
 import {Card, CardBody, CardImage, CardText, Col} from 'mdbreact';
+import { Link } from 'react-router-dom';
 
 const LayerText = props =>{
 
@@ -38,7 +38,11 @@ const LayerText = props =>{
 
             <h1 className='contentHead'>{layerText.contentHead}</h1>
             <h2 className='contentText'>{layerText.content}</h2>
-            <LayerThree/>
+            <Link to='/'>
+                <button className="blue">
+                BACK
+                </button>
+            </Link>
         </div>
     );
 

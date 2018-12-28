@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Slide from './Slide';
 import LayerOne from './LayerOne';
 import NavbarPage from './NavbarPage';
 import Footer from './Footer';
@@ -19,7 +18,6 @@ export default class App extends Component {
         return (
             <div className='container'>
                 <NavbarPage/>
-                <Slide/>
                 <NavbarText/>
                 <LayerOne/>
                 <MainPage/>

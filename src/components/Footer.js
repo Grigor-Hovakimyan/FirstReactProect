@@ -12,7 +12,7 @@ class Footer extends Component {
                     <h1>Newsletter</h1>
                     <h4>Sign up and know more</h4>
                     <form name='sub'>
-                        <input type='email' name='sub'/>
+                        <input className='footerInputBorder' type='email' name='sub'/>
                         <input className='submit' name='sub' type='submit' value='Sign up'/>
                     </form>
                 </div>

@@ -1,9 +1,9 @@
 #navbarUl{
     list-style-type: none;
     display: flex;
-    background-color: darkblue;
+    background:linear-gradient(90deg,blue, #cbcbcb,dodgerblue,blue,dodgerblue,#cbcbcb,blue);
     padding: 2%;
-    padding-left: 10%;
+    padding-left: 5%;
     margin-bottom: -1%;
     margin-top: -1%;
 
@@ -16,14 +16,18 @@
     cursor: pointer;
 }
 .blogTamplate{
-    background-color: darkblue;
+    color: white;
+    /*padding-top: 1%;*/
+    /*padding-left: 1%;*/
 
 }
 .searchImg{
     background-color: #e4e4e4;
 }
-#abCoCo{
-    color: red;
+.abCoCo{
+    font-family: sans-serif;
+    color: white;
+    /*font-size: 110%;*/
 }
 .w-100{
     position: relative;
@@ -197,12 +201,24 @@ body{
     font-size: 150%;
     color: #dcdcdc;
 }
+.footerInputBorder{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
 .footerText{
     background-color: #e4e4e4;
     padding:2% ;
 }
 .submit{
     cursor: pointer;
+    /*border-top-left-radius: 15px;*/
+    /*border-bottom-left-radius: 15px;*/
+    border-radius: 15px;
+    margin-left: -3%;
+    color: blue;
+    /*border: 1px solid black;*/
+    font-size: 110%;
+
 }
 #navbarInput{
     /*display: inline-block;*/
@@ -230,10 +246,68 @@ color: darkslategrey;
     color: black;
     border: 2px solid darkslategrey;
 }
-.aboutH3,.cooperationH3{
+.aboutH3,.cooperationH3,.contactH3{
     text-align: center;
+    color: #404040;
+    font-size: 130%;
+    text-decoration: underline;
 }
 .about,.cooperation{
     margin-right: 5%;
     margin-left: 5%;
+}
+.aboutP,.cooperationP,.contactP{
+    padding: 1%;
+    font-size: 120%;
+    text-align: center;
+    color: #e5e5e5;
+    background-color: #646464;
+    border-radius: 20px;
+}
+.blue {
+    border: 0;
+    width: 270px;
+    padding: 10px;
+    margin: 20px auto;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 1.2em;
+    color: #FFF;
+    background: #00009e;
+    -webkit-box-shadow: 0 3px 1px #0000aa;
+    -moz-box-shadow: 0 3px 1px #0000aa;
+    box-shadow: 0 3px 1px #0000aa;
+}
+
+.blue:hover {
+    cursor: pointer;
+    -webkit-transition: background-color 1s ease-in;
+    -moz-transition: background-color 1s ease-in;
+    -o-transition: background-color 1s ease-in;
+    transition: background-color 1s ease-in;
+    background-color: #0000b0;
+}
+
+.blue:active {
+    margin-top: 22px;
+    margin-bottom: -2px;
+}
+#natureLi{
+    margin-left: 7%;
+}
+.Photo{
+    width: 400px;
+    height: 400px;
+    margin-right: 2%;
+}
+.PhotoDiv{
+    margin-left: 3%;
+    text-align: center;
+    color: blue;
+    font-family: sans-serif;
 }
